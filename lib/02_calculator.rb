@@ -23,10 +23,17 @@ def power (a , b)
 
 
 
-def factorial yo
-  yo.downto(1).inject(:*)
+# def factorial first
+#   return (1..first).inject(1){|r ,i| r * i }
+#
+# end
 
+
+def factorial(num)
+  n = num
+  if n == 0
+    1
+  else   # ⇐ HERE
+    n * factorial(num - 1)
+  end
 end
-
-
-factorial(6)
