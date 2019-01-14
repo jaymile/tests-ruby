@@ -20,3 +20,13 @@ end
 def power (a , b)
      a ** b
   end
+
+
+
+def factorial yo
+  yo.downto(1).inject(:*)
+
+end
+
+
+factorial(6)
