@@ -16,3 +16,7 @@ def multiply first, second
   return first * second
 
 end
+
+def power (a , b)
+     a ** b
+  end

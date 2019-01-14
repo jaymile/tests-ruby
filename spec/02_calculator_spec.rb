@@ -61,15 +61,17 @@ describe "#multiply" do
   end
 end
 
-# describe "#power" do
-#   it "raises one number to the power of another number"
-# end
+describe "#power" do
+  it "raises one number to the power of another number" do
+  expect(power(5,5)).to eq(3125)
+end
+end
 #
 # # http://en.wikipedia.org/wiki/Factorial
-# describe "#factorial" do
-#   it "computes the factorial of 0"
-#   it "computes the factorial of 1"
-#   it "computes the factorial of 2"
-#   it "computes the factorial of 5"
-#   it "computes the factorial of 10"
-# end
+ describe "#factorial" do
+  it "computes the factorial of 0"
+  it "computes the factorial of 1"
+  it "computes the factorial of 2"
+  it "computes the factorial of 5"
+  it "computes the factorial of 10"
+end
