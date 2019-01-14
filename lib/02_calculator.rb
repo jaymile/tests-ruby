@@ -28,7 +28,6 @@ def power (a , b)
 #
 # end
 
-
 def factorial(num)
   n = num
   if n == 0

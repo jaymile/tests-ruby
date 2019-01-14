@@ -63,17 +63,11 @@ end
 
 describe "#power" do
   it "raises one number to the power of another number" do
-<<<<<<< HEAD
-  expect(power(5,5)).to eq(3125)
-end
-end
-=======
   expect(power(3,3)).to eq(27)
 end
 end
 
 
->>>>>>> c54e902de145f201c69e3cda9a07b1737f77c25d
 #
 # # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
