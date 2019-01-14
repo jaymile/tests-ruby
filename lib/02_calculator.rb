@@ -21,3 +21,9 @@ def power (first, second)
   return first ** second
 
 end
+
+def factorial (first)
+
+ return (1..first).inject(1){|r ,i| r*i}
+
+end
